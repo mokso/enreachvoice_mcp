@@ -1,0 +1,10 @@
+[project]
+name = "enreachvoice-mcp"
+version = "0.1.0"
+description = "EnreachVoice API MCP server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "requests>=2.32.3",
+]
